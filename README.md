@@ -13,11 +13,11 @@ CoachAI+ is a larger badminton AI project that includes:
 - tactical and shot evaluation modules
 - visualization and web-based interfaces
 
-My work focused on a specific subproject built on top of this broader system.
+This repository highlights a specific subproject built on top of that broader system.
 
 ## My Contribution
 
-My team and I worked on baseline RL development for the badminton environment, including:
+My teammates and I worked on baseline RL development for the badminton environment, including:
 
 - implementing and experimenting with **PDQN**, **Hybrid PPO**, and **Hybrid SAC**
 - integrating these agents into the **CoachAI+ badminton environment**
@@ -53,18 +53,15 @@ The environment uses **RallyNet** as a learned opponent for interaction and eval
 The baseline environment includes a simple reward design based on rally outcomes and invalid actions, including:
 
 - positive reward for winning the rally
-- penalties for invalid / constrained actions
+- penalties for invalid or constrained actions
 - penalties for losing due to out-of-bound or miss-hit situations
 
 ## Notes
 
-This repository is intended as a **contribution showcase**, not a full release of the original CoachAI+ project.  
-Many other parts of the broader system were developed outside my team’s scope.
+This repository is intended as a **contribution showcase**, not a full release of the original CoachAI+ project. Many other parts of the broader system were developed outside my team’s scope.
+
+The code and experiments highlighted here are centered on the **baseline training branch**, where we explored RL-based decision-making under the CoachAI+ badminton environment.
 
 ## Related Project
 
 For the original CoachAI+ project and broader research context, please refer to the upstream CoachAI repositories and related publications.
-
-##
-
-The code and experiments in this showcase are centered on the baseline training branch, where we explored RL-based decision-making under the CoachAI+ badminton environment.
